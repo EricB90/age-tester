@@ -1,0 +1,73 @@
+* {box-sizing: border-box;}
+
+:root {
+    --headerColor: #007dfc;
+    --bgColor: #d7d6d7;
+    --formColor: #c5c3c5;
+    --formBorder: #2d2c2d;
+    --buttonColor: #767016;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: var(--bgColor);
+}
+
+.main-header {
+    margin: 30px 0;
+    color: var(--headerColor);
+    text-align: center;
+}
+
+form {
+    margin: 10px auto;
+    padding: 35px;
+    width: 50%;
+    background-color: var(--formColor);
+    border: 3px solid var(--formBorder);
+    border-radius: 5px;
+}
+
+input[type=date] {
+    display: block;
+    margin-top: 10px;
+}
+
+.ver-label {
+    display: block;
+}
+
+input[type=submit] {
+    background-color: var(--buttonColor);
+    border-radius: 8px;
+    color: #fff;
+}
+
+.accept-card {
+    margin: 10px auto;
+    padding: 10px 35px;
+    width: 50%;
+    color: green;
+    font-size: 45px;
+    font-weight: 1000;
+}
+
+.deny-card {
+    margin: 10px auto;
+    padding: 10px 35px;
+    width: 50%;
+    color: red;
+    font-size: 45px;
+    font-weight: 1000;
+}
+
+.what-card {
+    margin: 10px auto;
+    padding: 10px 35px;
+    width: 50%;
+    color: var(--formBorder);
+    font-size: 30px;
+    font-weight: 1000;
+}
